@@ -1,0 +1,27 @@
+JASON-SERVER:
+  initiate package.JASON
+      npm inite -y 
+  create package-lock.JASON
+      npm i
+ install jason-SERVER
+   npm i jaon-server [node_modules created automaticaly]
+
+
+->Axious
+  * package with method of xmlhttprequest
+  * handle data transformation  itself
+  * to insta
+     -npm i Axios
+  
+  * Axious reques structure
+    -basic get request
+       >axious.get("url)
+    -ohter request 
+      > const req=axious.create({option})
+
+      {option}=>
+      {
+        base_url:"localhost:3000",
+        url:"allvideo",
+        headers:{"content-typr:application/json"/"text/plain"/"multipsrt/form-data"}
+      }
